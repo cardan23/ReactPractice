@@ -1,0 +1,11 @@
+Immer in React
+
+Immer is a library to copy objects and  not affect the original,
+this is used to avoid the use of spread operator (...) and do it easier.
+
+So to install immer we can use the next commnad:
+
+    nom i immer@latest
+
+To modify the properties of a copied object we can modify it with 'produce' function
+and with sintaxis like javascript (see immer video into documentation, managing component state section)

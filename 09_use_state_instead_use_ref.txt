@@ -1,0 +1,12 @@
+We can use 'useState' instead 'useRef' for the forms
+a lot of people thinks this is an issue, is NOT, we can work with that aproach.
+
+UseState will render the component with every change but
+Unless we notice a big change into performance of the application we should change to use 
+useRef but its correct to use 'useState' too. 
+
+If we have a complex web page with a lot of elements and we can notice issues on performance
+then we can change to useref but most of the cases we are not going to experiment that.
+
+ I prefer to use 'useRef' because its easier to manage but its important to know
+ what are the different apoproaches to resolve the same.

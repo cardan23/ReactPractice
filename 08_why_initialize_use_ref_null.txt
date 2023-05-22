@@ -1,0 +1,17 @@
+Why we need to initialize useref function with null?
+
+we need to initialize the function useref like this:
+    useref(null);
+
+this is because the "ref_variable.current" object makes
+reference to some DOM node, and when we create the ref object
+we do not have access to DOM, so react just create it
+after the rendering of the component.
+
+If we do not specify a null value into 'useref' we can have unexpected
+behavior because this value will be 'undefined'.
+
+    useref() <-- will set undefined instead null
+
+This might be a design issue in react, we need to specify always null as a default
+value into ref objects. 

@@ -1,0 +1,4 @@
+Strict mode
+
+When strict mode of react is on, react renders the components twice, one for detecting issues and the second is 
+for render the component. This only happens into development mode, it doesn't happens into production mode.

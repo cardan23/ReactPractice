@@ -1,0 +1,3 @@
+This is a nice theme for visual code, we can find it here
+
+https://vscodethemes.com/e/juliettepretot.lucy-vscode/lucy?language=javascript

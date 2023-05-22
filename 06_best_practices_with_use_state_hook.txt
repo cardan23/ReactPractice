@@ -1,0 +1,9 @@
+Best practices about the use of state hood in React
+
+1. avoid to use reduntant state variables
+2. Group related variables inside an object
+3. Avoid deeply nested structures (becomes complicated to update)
+4. keep components pure (pure in javascript means, with the same input always returns the same response)
+
+5. If we want to share one value into 2 component we need to manage this with the parent of the two components,
+and pass this value to both. This is the only way the components can share information.

@@ -1,0 +1,16 @@
+Create react app 
+
+To create a react app we are going to use 'vite'.
+Vite is a tool to create different projects with several options of
+frameworks and tools.
+
+The command to create a react app with vite is like this:
+we can change 'latest' word by the version we want to use.
+
+
+    npm create vite@latest
+
+    1. select the framework (React)
+    2. select the language (Typescript)
+    3. cd react-app
+    4. npm i

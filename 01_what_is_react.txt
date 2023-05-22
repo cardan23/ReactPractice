@@ -1,0 +1,9 @@
+What is react?
+
+React is a javascript library created by facebook on 2011.
+The purpose of react is to create web pages dynamically and based in components,
+the components are a better way to organize and reuse source code into web pages,
+with this we can achieve projects in a better way, faster and easier. 
+
+So React was maded to do web pages dinamically, better organized and better control
+of all elements of the web pages for developers.

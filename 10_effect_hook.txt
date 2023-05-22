@@ -1,0 +1,25 @@
+Understanding Effect Hook
+
+We need to mantain our components as pure components (this means with same parameters we should return same result)
+so for this we should keep any code that modify data (call a service, save data into local storage or modify the
+DOM manually) outisde the component. This is where effecthook comes in. 
+
+With effecthook we can execute a piece of code after a component is rendered.
+
+Notation:
+    useEffect(() => {  //some code here})
+
+How useEffect is executed
+
+    This is executed after every render
+
+        useEffect(() => {  //some code here})
+
+    This is executed only once the first time the component is rendered and not dependency with any value
+    second parameter [] is for dependency values.
+
+        useEffect(() => {  //some code here}, [])
+    
+    This is executed every time any of this value(s) changes.
+        useEffect(() => {  //some code here}, [value1, value2])
+    
